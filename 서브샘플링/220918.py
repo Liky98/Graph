@@ -1,3 +1,4 @@
+""" 최종 파일 ㅇㅇ """
 import dgl
 
 g = dgl.load_graphs('subsampling/dgl_graph_full_heterogeneous.bin')
