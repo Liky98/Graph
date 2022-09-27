@@ -32,7 +32,7 @@ ei_writes = dataset.edge_index('author', 'writes', 'paper')
 ei_cites = dataset.edge_index('paper', 'paper')
 ei_affiliated = dataset.edge_index('author', 'institution')
 
-# We sort the nodes starting with the papers, then the authors, then the institutions. [BUG]: author, institution, paper?
+
 author_offset = 0
 inst_offset = author_offset + dataset.num_authors
 paper_offset = inst_offset + dataset.num_institutions
